@@ -3,7 +3,8 @@ angular.module('ionic.weather', ['ionic', 'ionic.weather.services', 'ionic.weath
 //.constant('WUNDERGROUND_API_KEY', '1cc2d3de40fa5af0')
 .constant('WUNDERGROUND_API_KEY','a2439ce9af4c9d8c')
 
-.constant('FLICKR_API_KEY', '504fd7414f6275eb5b657ddbfba80a2c')
+//.constant('FLICKR_API_KEY', '504fd7414f6275eb5b657ddbfba80a2c')
+.constant('FLICKR_API_KEY','889a35754a9520792adc489bbdb6762f')
 
 .filter('int', function() {
   return function(v) {
